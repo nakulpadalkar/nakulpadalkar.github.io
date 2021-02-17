@@ -1,26 +1,27 @@
 ---
 layout: post
 title: "Nonlinear Regression"
-date: 2015-08-04 03:21:35
+date: 2021-02-16 07:19:35
 image: '/assets/img/'
 description: 'Put your description here.'
 tags:
-- jekyll
-- web
+- R
+- Nonlinear Regression
 categories:
 - Jekyll is awesome
 twitter_text: 'Put your twitter description here.'
 ---
 
-## GitHub Documents
+# GitHub Documents
 
 This is an R Markdown format used for publishing markdown documents to
 GitHub. When you click the **Knit** button all R code chunks are run and
 a markdown file (.md) suitable for publishing to GitHub is generated.
 
-## Including Code
+# Including Code
 
 You can include R code in the document as follows:
+{% highlight ruby %}
 
 ``` r
 summary(cars)
@@ -33,6 +34,7 @@ summary(cars)
     ##  Mean   :15.4   Mean   : 42.98  
     ##  3rd Qu.:19.0   3rd Qu.: 56.00  
     ##  Max.   :25.0   Max.   :120.00
+{% end highlight %}
 
 ## Including Plots
 
