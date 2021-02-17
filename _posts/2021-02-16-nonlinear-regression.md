@@ -22,11 +22,7 @@ a markdown file (.md) suitable for publishing to GitHub is generated.
 
 You can include R code in the document as follows:
 {% highlight ruby %}
-
-``` r
 summary(cars)
-```
-
     ##      speed           dist       
     ##  Min.   : 4.0   Min.   :  2.00  
     ##  1st Qu.:12.0   1st Qu.: 26.00  
@@ -40,7 +36,7 @@ summary(cars)
 
 You can also embed plots, for example:
 
-![](pressure-1.png)<!-- -->
+![Pressure Graph](pressure-1.png)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
