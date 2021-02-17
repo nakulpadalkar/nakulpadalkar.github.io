@@ -1,7 +1,16 @@
-Some useful equations for nonlinear regression in R
-================
-Nakul R. Padalkar
-2021 February 16
+---
+layout: post
+title: "Nonlinear Regression"
+date: 2015-08-04 03:21:35
+image: '/assets/img/'
+description: 'Put your description here.'
+tags:
+- jekyll
+- web
+categories:
+- Jekyll is awesome
+twitter_text: 'Put your twitter description here.'
+---
 
 ## GitHub Documents
 
@@ -29,7 +38,7 @@ summary(cars)
 
 You can also embed plots, for example:
 
-![](Nonlinear-Regression_files/figure-gfm/pressure-1.png)<!-- -->
+![](pressure-1.png)<!-- -->
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
