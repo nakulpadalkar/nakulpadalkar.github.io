@@ -6,7 +6,7 @@ page-layout: full
 <div class="gradient-text">
 
 <div class="welcome-headline">
-Welcome to the Analytics for Non Profit Researhch Group<br>
+Welcome to the Analytics for Non Profit Research Group<br>
 </div>
 <div class="welcome-subheadline">
 Mapping Nature, Society, and Solutions
