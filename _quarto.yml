@@ -11,7 +11,9 @@ website:
 
 format:
   html:
-    theme: [cosmo, ./template/styles.scss]
+    theme: 
+      - styles/styles.scss
+      - cosmo
     toc: true
     mainfont: Nunito Sans
     date-format: long
