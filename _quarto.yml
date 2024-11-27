@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Nakul Padalkar"
+  title: "Analytics for Non-Profits"
   navbar:
     left:
       - href: index.qmd
@@ -11,8 +11,11 @@ website:
 
 format:
   html:
-    theme: [cosmo, ./template/styles]
+    theme: [cosmo, ./template/styles.scss]
     toc: true
+    mainfont: Nunito Sans
+    date-format: long
+
 
 execute:
   freeze: true
