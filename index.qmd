@@ -1,7 +1,36 @@
 ---
-title: "Nakul Padalkar"
+# title: 'Welcome to the Masiello Group: <span style="color:#757883">light-matter theory at the nanoscale</span>'
+# subtitle: "light-matter theory at the nanoscale"
+page-layout: full
 ---
+<div class="gradient-text">
 
-This is a Quarto website.
+<div class="welcome-headline">
+Welcome to the Analytics for Non Profit Researhch Group<br>
+</div>
+<div class="welcome-subheadline">
+Mapping Nature, Society, and Solutions
+</div>
+</div>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+::::{.cmm-background}
+::: {.content-container}
+::: {.welcome }
+
+
+::: grid
+::: {.g-col-12 .g-col-lg-4 .welcome-text .sand-background style="padding: 15px;"}
+
+We are a collective of researchers with diverse expertise spanning computer vision, data science, environmental science, and social science, working at the intersection of **analytics and real-world challenges**. Our group collaborates with nonprofit organizations and academic institutions to drive impactful research in areas like **urbanization, biodiversity, and language preservation**, using cutting-edge methodologies in **machine learning, spatial analytics, and computational modeling**. 
+
+Our work aims to uncover patterns and insights into environmental, societal, and linguistic phenomena, with a strong emphasis on applications that empower sustainable development and conservation. A deep integration with fieldwork and experimental data drives our mission to bridge theory with practice and contribute to a better understanding of the world around us. 
+
+:::
+
+:::
+
+
+
+:::
+:::
+::::
