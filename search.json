@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nakul Padalkar",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "How to Automate Quarto Builds with GitHub Actions\n\n\n\nHow-to\n\n\nCI:CD\n\n\nQuarto\n\n\nGitHub Actions\n\n\nPortfolio\n\n\n\n\n\n\n\nNakul R. Padalkar\n\n\nSep 10, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2025-01-29-quarto-github-actions/index.html",
+    "href": "posts/2025-01-29-quarto-github-actions/index.html",
+    "title": "How to Automate Quarto Builds with GitHub Actions",
+    "section": "",
+    "text": "You’re set up with a GitHub account.\nYou’re able to run git commands @GitHubGit from a command line interface (CLI).\nYou’ve installed quarto. @HelloQuarto\nYou’ve a preferred text editor installed, eg Visual Studio Code, Atom or similar.\n\nThis guide is based on the useful quarto continuous integration (CI) documentation @quartoCIdocs and the examples provided within the Quarto CI GitHub repository @QuartoDevCI."
+  },
+  {
+    "objectID": "posts/2025-01-29-quarto-github-actions/index.html#assumptions",
+    "href": "posts/2025-01-29-quarto-github-actions/index.html#assumptions",
+    "title": "How to Automate Quarto Builds with GitHub Actions",
+    "section": "",
+    "text": "You’re set up with a GitHub account.\nYou’re able to run git commands @GitHubGit from a command line interface (CLI).\nYou’ve installed quarto. @HelloQuarto\nYou’ve a preferred text editor installed, eg Visual Studio Code, Atom or similar.\n\nThis guide is based on the useful quarto continuous integration (CI) documentation @quartoCIdocs and the examples provided within the Quarto CI GitHub repository @QuartoDevCI."
+  },
+  {
+    "objectID": "posts/2025-01-29-quarto-github-actions/index.html#ci-for-quarto",
+    "href": "posts/2025-01-29-quarto-github-actions/index.html#ci-for-quarto",
+    "title": "How to Automate Quarto Builds with GitHub Actions",
+    "section": "CI for Quarto",
+    "text": "CI for Quarto\nThe repository used for setting up this example is available on GitHub.\nThe renderred site should look like this on GitHub Pages.\n\nIn the GitHub User Interface\n\nCreate a repository.\nCopy the clone url.\n\n\n\nIn the CLI\nAssuming you have a mac, in windows, touch means you are creating a new file. :\n\ncd to wherever you would like to keep your local clone.\ngit clone &lt;INSERT REPO URL&gt;\ncd &lt;INSERT REPO PATH&gt;\ntouch .github/workflows/publish-quarto.yml\ntouch index.qmd\ntouch .nojekyll\ntouch _quarto.yml\n\n\n\nIn the text editor\n\nCopy and paste the below into .github/workflows/publish-quarto.yml (you may need to enable viewing hidden files on your system - command + shift + . On macOS):\n\nname: Render and Publish\non:\n  push:\n    branches:\n      - main  # changes pushed to this branch will trigger a build.\n\njobs:\n  build-deploy:\n      runs-on: ubuntu-latest\n      permissions:\n        contents: write\n      steps:\n        - name: Check out repository\n          uses: actions/checkout@v3\n          \n        - name: Set up Quarto\n          uses: quarto-dev/quarto-actions/setup@v2\n          with:\n            version: 1.3.340\n\n        - name: Publish to GitHub Pages (and render)\n          uses: quarto-dev/quarto-actions/publish@v2\n          with:\n            target: gh-pages # renderred html files will be pushed here\n          env:\n            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions\n\nCopy paste the below into the index.qmd, using your preferred text editor:\n\n---\ntitle: Hello Quarto CI\ndate: last-modified\nresources:\n  - .nojekyll\n---\nSetting up CI for quarto website build & publish.\n\nCopy paste the following into _quarto.yml:\n\nproject:\n  type: website\n  output-dir: docs\nexecute:\n  freeze: auto\nformat: html\n\n\nBack in the CLI\n\nAt the project root: quarto render. This will make a docs folder with your rendered website, a directory called index_files with more site dependencies and a .gitignore file. The only file needed to be committed is the .gitignore.\necho /docs/ &gt;&gt; .gitignore\necho /index_files/ &gt;&gt; .gitignore\ngit status should look like this:\n\nOn branch main\nYour branch is up to date with 'origin/main'.\n\nUntracked files:\n  (use \"git add &lt;file&gt;...\" to include in what will be committed)\n        .github/workflows/publish-quarto.yml\n        .gitignore\n        _quarto.yml\n        index.qmd\n\ngit add .\ngit commit -m \"Configure quarto\"\ngit push\n\n\n\nBack to the Web Browser\n\nIf the push was successful, navigate to your repository\nClick on the drop down arrow next to main branch\nClick on ‘view all branches’\nClick the ‘new branch’ button\nCreate the branch gh-pages\nClick on ‘settings’ in the top ribbon of the repo site\nClick on ‘Pages’ in the menu to the left\nCheck that your GitHub Pages is setup is Build and deployment &gt; Source &gt; Deploy from a branch\nCheck that the Branch setup is gh-pages /root\nAfter the CI has finished building, you can click on the url that appears at the top of this page under “GitHub Pages” to check that the site has been deployed properly. Copy the url of your GitHub Pages site.\n\n\n\nHead Back to your Local Repo\n\nInsert your url into your _quarto.yml, like below:\n\nproject:\n  type: website\n  output-dir: docs\nexecute:\n  freeze: auto\nformat: html\nwebsite:\n  site-url: \"&lt;YOUR_URL_HERE&gt;\" # makes site links work on your remote site"
+  },
+  {
+    "objectID": "posts/2025-01-29-quarto-github-actions/index.html#creating-a-workflow-build-status-badge",
+    "href": "posts/2025-01-29-quarto-github-actions/index.html#creating-a-workflow-build-status-badge",
+    "title": "How to Automate Quarto Builds with GitHub Actions",
+    "section": "Creating a Workflow Build Status Badge",
+    "text": "Creating a Workflow Build Status Badge\n\nUse the following format to create a workflow build status badge in your readme: https://github.com/OWNER/REPOSITORY/actions/workflows/WORKFLOW-FILE/badge.svg\nFor example: https://github.com/r-leyshon/quarto-ci-example/actions/workflows/publish-quarto.yml/badge.svg\n\nFinally, embed the url in the src of a markdown image, like: ![example workflow](https://github.com/r-leyshon/quarto-ci-example/actions/workflows/publish-quarto.yml/badge.svg)\n\n\n\n\nexample workflow\n\n\n\nfin!"
+  }
+]

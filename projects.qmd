@@ -1,5 +1,0 @@
----
-title: My Projects
-author: Nakul Padalkar
----
-
