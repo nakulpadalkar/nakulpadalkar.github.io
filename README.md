@@ -1,1 +1,0 @@
-# nakulpadalkar.github.io
