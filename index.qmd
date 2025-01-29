@@ -1,5 +1,7 @@
 ---
 title: "Nakul Padalkar"
+resources:
+  - .nojekyll
 ---
 
 This is a Quarto website.
