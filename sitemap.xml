@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nakulpadalkar.github.io/projects.html</loc>
-    <lastmod>2025-01-29T19:52:28.224Z</lastmod>
+    <lastmod>2025-01-30T17:04:18.256Z</lastmod>
   </url>
   <url>
-    <loc>https://nakulpadalkar.github.io/index.html</loc>
-    <lastmod>2025-01-29T19:52:28.222Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nakulpadalkar.github.io/about.html</loc>
-    <lastmod>2025-01-29T19:52:28.222Z</lastmod>
+    <loc>https://nakulpadalkar.github.io/posts/2025-01-30-quarto-project-guidelines/index.html</loc>
+    <lastmod>2025-01-30T17:04:18.256Z</lastmod>
   </url>
   <url>
     <loc>https://nakulpadalkar.github.io/posts.html</loc>
-    <lastmod>2025-01-29T19:52:28.223Z</lastmod>
+    <lastmod>2025-01-30T17:04:18.255Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nakulpadalkar.github.io/about.html</loc>
+    <lastmod>2025-01-30T17:04:18.254Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nakulpadalkar.github.io/index.html</loc>
+    <lastmod>2025-01-30T17:04:18.254Z</lastmod>
   </url>
   <url>
     <loc>https://nakulpadalkar.github.io/posts/2025-01-29-quarto-github-actions/index.html</loc>
-    <lastmod>2025-01-29T19:52:28.223Z</lastmod>
+    <lastmod>2025-01-30T17:04:18.256Z</lastmod>
   </url>
 </urlset>
