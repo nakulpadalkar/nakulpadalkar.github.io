@@ -2,12 +2,16 @@ project:
   type: website
 
 website:
-  title: "Nakul R. Padalkar"
+  title: "Nakul Padalkar"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: projects.qmd
+        text: Projects
+      - href: posts.qmd
+        text: Blog      
 
 format:
   html:
@@ -17,5 +21,6 @@ format:
     css: styles.css
     toc: true
 
-
+execute:
+  freeze: auto
 
