@@ -15,11 +15,16 @@ execute:
 ---
 
 ## Advertised Salary Trend
+
 This graph illustrates the trend of advertised salaries over time. The data shows fluctuations in salaries, indicating how job postings in different periods have varied compensation offers.
 
 ```{python}
 import pandas as pd
 import plotly.express as px
+import plotly.io as pio
+
+# Set the renderer explicitly
+pio.renderers.default = "iframe"
 
 # Load the Excel file
 file_path = "Job_Posting_Analytics.xlsx"
@@ -40,6 +45,7 @@ fig.show()
 
 
 ## Job Postings Regional Breakdown
+
 This bar chart presents the number of unique job postings across different states. It highlights which regions have the most job openings, offering insight into geographic demand for professionals.
 
 ```{python}
@@ -78,6 +84,7 @@ fig.show()
 
 
 ## Job Postings by City (US Map)
+
 This map visualization shows the total number of job postings by state in the United States. Darker shades indicate higher job postings, giving insight into which states have the most demand for job seekers.
 
 ```{python}
@@ -110,5 +117,3 @@ fig = px.choropleth(
 )
 fig.show()
 ```
-
-![](./images/donald-giannatti-Wj1D-qiOseE-unsplash.jpg){width="75%" fig-align="center"}
