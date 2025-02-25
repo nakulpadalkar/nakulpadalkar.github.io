@@ -14,12 +14,12 @@ execute:
   eval: true
 ---
 
-
 ## Advertised Salary Trend
+This graph illustrates the trend of advertised salaries over time. The data shows fluctuations in salaries, indicating how job postings in different periods have varied compensation offers.
 
 ```{python}
 import pandas as pd
-import matplotlib.pyplot as plt
+import plotly.express as px
 
 # Load the Excel file
 file_path = "Job_Posting_Analytics.xlsx"
@@ -34,21 +34,13 @@ salary_trend_df = salary_trend_df.dropna().iloc[1:]
 salary_trend_df["Advertised Salary"] = salary_trend_df["Advertised Salary"].astype(int)
 
 # Plot Advertised Salary Trend
-plt.figure(figsize=(10, 5))
-plt.plot(salary_trend_df["Month"], salary_trend_df["Advertised Salary"], marker='o', linestyle='-', label="Advertised Salary")
-plt.xticks(rotation=45)
-plt.xlabel("Month")
-plt.ylabel("Advertised Salary ($)")
-plt.title("Advertised Salary Trend")
-plt.legend()
-plt.grid(True)
-plt.show()
+fig = px.line(salary_trend_df, x="Month", y="Advertised Salary", markers=True, title="Advertised Salary Trend")
+fig.show()
 ```
 
-### Explanation
-This graph illustrates the trend of advertised salaries over time. The data shows fluctuations in salaries, indicating how job postings in different periods have varied compensation offers.
 
 ## Job Postings Regional Breakdown
+This bar chart presents the number of unique job postings across different states. It highlights which regions have the most job openings, offering insight into geographic demand for professionals.
 
 ```{python}
 regional_breakdown_df = xls.parse("Job Postings Regional Breakdown")
@@ -62,20 +54,14 @@ regional_breakdown_df["Unique Postings"] = regional_breakdown_df["Unique Posting
 regional_breakdown_df = regional_breakdown_df.sort_values(by="Unique Postings", ascending=False)
 
 # Plot Job Postings Regional Breakdown
-plt.figure(figsize=(12, 6))
-plt.bar(regional_breakdown_df["State"], regional_breakdown_df["Unique Postings"], color="skyblue")
-plt.xticks(rotation=45)
-plt.xlabel("State")
-plt.ylabel("Unique Job Postings")
-plt.title("Job Postings Regional Breakdown")
-plt.grid(axis='y', linestyle="--", alpha=0.7)
-plt.show()
+fig = px.bar(regional_breakdown_df, x="State", y="Unique Postings", title="Job Postings Regional Breakdown", labels={"Unique Postings": "Number of Job Postings"})
+fig.show()
 ```
 
-### Explanation
-This bar chart presents the number of unique job postings across different states. It highlights which regions have the most job openings, offering insight into geographic demand for professionals.
 
 ## Unique Job Postings Trend
+
+This line chart shows the number of unique job postings over time. It helps track hiring trends and can be useful in understanding market fluctuations and job demand in different months.
 
 ```{python}
 job_postings_timeseries_df = xls.parse("Job Postings Timeseries")
@@ -86,18 +72,43 @@ job_postings_timeseries_df = job_postings_timeseries_df.dropna().iloc[1:]
 job_postings_timeseries_df["Unique Postings"] = job_postings_timeseries_df["Unique Postings"].astype(int)
 
 # Plot Unique Postings Trend
-plt.figure(figsize=(10, 5))
-plt.plot(job_postings_timeseries_df["Month"], job_postings_timeseries_df["Unique Postings"], marker='o', linestyle='-', label="Unique Postings", color="green")
-plt.xticks(rotation=45)
-plt.xlabel("Month")
-plt.ylabel("Unique Postings")
-plt.title("Unique Job Postings Trend")
-plt.legend()
-plt.grid(True)
-plt.show()
+fig = px.line(job_postings_timeseries_df, x="Month", y="Unique Postings", markers=True, title="Unique Job Postings Trend")
+fig.show()
 ```
 
-### Explanation
-This line chart shows the number of unique job postings over time. It helps track hiring trends and can be useful in understanding market fluctuations and job demand in different months.
+
+## Job Postings by City (US Map)
+This map visualization shows the total number of job postings by state in the United States. Darker shades indicate higher job postings, giving insight into which states have the most demand for job seekers.
+
+```{python}
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+
+# Load city-level job postings data
+city_postings_df = xls.parse("Job Postings Top Cities")
+
+# Clean and prepare the data
+city_postings_df.columns = ["City", "Total Postings", "Unique Postings", "Median Posting Duration"]
+city_postings_df = city_postings_df.dropna().iloc[1:]
+city_postings_df["Total Postings"] = city_postings_df["Total Postings"].astype(int)
+
+# Extract state information
+city_postings_df[["City", "State"]] = city_postings_df["City"].str.rsplit(", ", n=1, expand=True)
+
+# Aggregate postings by state
+state_postings = city_postings_df.groupby("State")["Total Postings"].sum().reset_index()
+
+# US Map Plot
+fig = px.choropleth(
+    state_postings,
+    locations="State",
+    locationmode="USA-states",
+    color="Total Postings",
+    color_continuous_scale="Blues",
+    scope="usa",
+    title="Total Job Postings by State"
+)
+fig.show()
+```
 
 ![](./images/donald-giannatti-Wj1D-qiOseE-unsplash.jpg){width="75%" fig-align="center"}
