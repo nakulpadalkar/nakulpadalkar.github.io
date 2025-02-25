@@ -99,3 +99,5 @@ plt.show()
 
 ### Explanation
 This line chart shows the number of unique job postings over time. It helps track hiring trends and can be useful in understanding market fluctuations and job demand in different months.
+
+![](./images/donald-giannatti-Wj1D-qiOseE-unsplash.jpg){width="75%" fig-align="center"}

@@ -1,23 +1,18 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
+    "title": "Nakul R. Padalkar",
     "title": "Job Posting Analysis",
     "section": "",
     "text": "This graph illustrates the trend of advertised salaries over time. The data shows fluctuations in salaries, indicating how job postings in different periods have varied compensation offers."
   },
   {
-    "objectID": "GithubPortfolio.html",
-    "href": "GithubPortfolio.html",
-    "title": "How to Automate Quarto Builds with GitHub Actions",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
+    "text": "About this site"
     "text": "You’re set up with a GitHub account.\nYou’re able to run git commands @GitHubGit from a command line interface (CLI).\nYou’ve installed quarto. @HelloQuarto\nYou’ve a preferred text editor installed, eg Visual Studio Code, Atom or similar.\n\nThis guide is based on the useful quarto continuous integration (CI) documentation @quartoCIdocs and the examples provided within the Quarto CI GitHub repository @QuartoDevCI."
   },
   {
