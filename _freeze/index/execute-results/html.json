@@ -1,0 +1,12 @@
+{
+  "hash": "212849ce901ace6d468e625b3f390dd1",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Job Posting Analysis\"\nauthor: \"Nakul Padalkar\"\nresources:\n  - .nojekyll\ntoc: true\ntoc_depth: 2\nformat:\n  html: default\n  pdf: default\n\nexecute: \n  echo: false\n  eval: true\n---\n\n\n## Advertised Salary Trend\n\n::: {#567ed5ed .cell execution_count=1}\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-2-output-1.png){width=842 height=491}\n:::\n:::\n\n\n### Explanation\nThis graph illustrates the trend of advertised salaries over time. The data shows fluctuations in salaries, indicating how job postings in different periods have varied compensation offers.\n\n## Job Postings Regional Breakdown\n\n::: {#1999466a .cell execution_count=2}\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-3-output-1.png){width=965 height=564}\n:::\n:::\n\n\n### Explanation\nThis bar chart presents the number of unique job postings across different states. It highlights which regions have the most job openings, offering insight into geographic demand for professionals.\n\n## Unique Job Postings Trend\n\n::: {#f85ceda4 .cell execution_count=3}\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-4-output-1.png){width=825 height=492}\n:::\n:::\n\n\n### Explanation\nThis line chart shows the number of unique job postings over time. It helps track hiring trends and can be useful in understanding market fluctuations and job demand in different months.\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

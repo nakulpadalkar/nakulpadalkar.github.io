@@ -1,9 +1,101 @@
 ---
-title: "Nakul Padalkar"
+title: "Job Posting Analysis"
+author: "Nakul Padalkar"
 resources:
   - .nojekyll
+toc: true
+toc_depth: 2
+format:
+  html: default
+  pdf: default
+
+execute: 
+  echo: false
+  eval: true
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Advertised Salary Trend
+
+```{python}
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the Excel file
+file_path = "Job_Posting_Analytics.xlsx"
+xls = pd.ExcelFile(file_path)
+
+# Load relevant sheets into dataframes
+salary_trend_df = xls.parse("Advertised Salary Trend")
+
+# Clean and prepare the Advertised Salary Trend data
+salary_trend_df.columns = ["Month", "Job Postings", "Advertised Salary"]
+salary_trend_df = salary_trend_df.dropna().iloc[1:]
+salary_trend_df["Advertised Salary"] = salary_trend_df["Advertised Salary"].astype(int)
+
+# Plot Advertised Salary Trend
+plt.figure(figsize=(10, 5))
+plt.plot(salary_trend_df["Month"], salary_trend_df["Advertised Salary"], marker='o', linestyle='-', label="Advertised Salary")
+plt.xticks(rotation=45)
+plt.xlabel("Month")
+plt.ylabel("Advertised Salary ($)")
+plt.title("Advertised Salary Trend")
+plt.legend()
+plt.grid(True)
+plt.show()
+```
+
+### Explanation
+This graph illustrates the trend of advertised salaries over time. The data shows fluctuations in salaries, indicating how job postings in different periods have varied compensation offers.
+
+## Job Postings Regional Breakdown
+
+```{python}
+regional_breakdown_df = xls.parse("Job Postings Regional Breakdown")
+
+# Clean and prepare the Regional Breakdown data
+regional_breakdown_df.columns = ["State", "Unique Postings"]
+regional_breakdown_df = regional_breakdown_df.dropna().iloc[1:]
+regional_breakdown_df["Unique Postings"] = regional_breakdown_df["Unique Postings"].astype(int)
+
+# Sort by number of postings
+regional_breakdown_df = regional_breakdown_df.sort_values(by="Unique Postings", ascending=False)
+
+# Plot Job Postings Regional Breakdown
+plt.figure(figsize=(12, 6))
+plt.bar(regional_breakdown_df["State"], regional_breakdown_df["Unique Postings"], color="skyblue")
+plt.xticks(rotation=45)
+plt.xlabel("State")
+plt.ylabel("Unique Job Postings")
+plt.title("Job Postings Regional Breakdown")
+plt.grid(axis='y', linestyle="--", alpha=0.7)
+plt.show()
+```
+
+### Explanation
+This bar chart presents the number of unique job postings across different states. It highlights which regions have the most job openings, offering insight into geographic demand for professionals.
+
+## Unique Job Postings Trend
+
+```{python}
+job_postings_timeseries_df = xls.parse("Job Postings Timeseries")
+
+# Clean and prepare the Unique Postings Trend data
+job_postings_timeseries_df.columns = ["Month", "Unique Postings", "Posting Intensity"]
+job_postings_timeseries_df = job_postings_timeseries_df.dropna().iloc[1:]
+job_postings_timeseries_df["Unique Postings"] = job_postings_timeseries_df["Unique Postings"].astype(int)
+
+# Plot Unique Postings Trend
+plt.figure(figsize=(10, 5))
+plt.plot(job_postings_timeseries_df["Month"], job_postings_timeseries_df["Unique Postings"], marker='o', linestyle='-', label="Unique Postings", color="green")
+plt.xticks(rotation=45)
+plt.xlabel("Month")
+plt.ylabel("Unique Postings")
+plt.title("Unique Job Postings Trend")
+plt.legend()
+plt.grid(True)
+plt.show()
+```
+
+### Explanation
+This line chart shows the number of unique job postings over time. It helps track hiring trends and can be useful in understanding market fluctuations and job demand in different months.
