@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Job Posting Analysis",
+    "section": "",
+    "text": "This graph illustrates the trend of advertised salaries over time. The data shows fluctuations in salaries, indicating how job postings in different periods have varied compensation offers."
+  },
+  {
+    "objectID": "index.html#advertised-salary-trend",
+    "href": "index.html#advertised-salary-trend",
+    "title": "Job Posting Analysis",
+    "section": "",
+    "text": "This graph illustrates the trend of advertised salaries over time. The data shows fluctuations in salaries, indicating how job postings in different periods have varied compensation offers."
+  },
+  {
+    "objectID": "index.html#job-postings-regional-breakdown",
+    "href": "index.html#job-postings-regional-breakdown",
+    "title": "Job Posting Analysis",
+    "section": "Job Postings Regional Breakdown",
+    "text": "Job Postings Regional Breakdown\nThis bar chart presents the number of unique job postings across different states. It highlights which regions have the most job openings, offering insight into geographic demand for professionals."
+  },
+  {
+    "objectID": "index.html#unique-job-postings-trend",
+    "href": "index.html#unique-job-postings-trend",
+    "title": "Job Posting Analysis",
+    "section": "Unique Job Postings Trend",
+    "text": "Unique Job Postings Trend\nThis line chart shows the number of unique job postings over time. It helps track hiring trends and can be useful in understanding market fluctuations and job demand in different months."
+  },
+  {
+    "objectID": "index.html#job-postings-by-city-us-map",
+    "href": "index.html#job-postings-by-city-us-map",
+    "title": "Job Posting Analysis",
+    "section": "Job Postings by City (US Map)",
+    "text": "Job Postings by City (US Map)\nThis map visualization shows the total number of job postings by state in the United States. Darker shades indicate higher job postings, giving insight into which states have the most demand for job seekers."
+  },
+  {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "My Blog",
@@ -40,34 +75,6 @@
     "title": "About",
     "section": "",
     "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Job Posting Analysis",
-    "section": "",
-    "text": "This graph illustrates the trend of advertised salaries over time. The data shows fluctuations in salaries, indicating how job postings in different periods have varied compensation offers."
-  },
-  {
-    "objectID": "index.html#advertised-salary-trend",
-    "href": "index.html#advertised-salary-trend",
-    "title": "Job Posting Analysis",
-    "section": "",
-    "text": "This graph illustrates the trend of advertised salaries over time. The data shows fluctuations in salaries, indicating how job postings in different periods have varied compensation offers."
-  },
-  {
-    "objectID": "index.html#job-postings-regional-breakdown",
-    "href": "index.html#job-postings-regional-breakdown",
-    "title": "Job Posting Analysis",
-    "section": "Job Postings Regional Breakdown",
-    "text": "Job Postings Regional Breakdown\n\n\n\n\n\n\n\n\n\n\nExplanation\nThis bar chart presents the number of unique job postings across different states. It highlights which regions have the most job openings, offering insight into geographic demand for professionals."
-  },
-  {
-    "objectID": "index.html#unique-job-postings-trend",
-    "href": "index.html#unique-job-postings-trend",
-    "title": "Job Posting Analysis",
-    "section": "Unique Job Postings Trend",
-    "text": "Unique Job Postings Trend\n\n\n\n\n\n\n\n\n\n\nExplanation\nThis line chart shows the number of unique job postings over time. It helps track hiring trends and can be useful in understanding market fluctuations and job demand in different months."
   },
   {
     "objectID": "posts/2025-01-30-quarto-project-guidelines/index.html",

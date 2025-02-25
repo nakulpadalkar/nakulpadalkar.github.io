@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://nakulpadalkar.github.io/index.html</loc>
+    <lastmod>2025-02-25T21:15:06.111Z</lastmod>
+  </url>
+  <url>
     <loc>https://nakulpadalkar.github.io/posts.html</loc>
-    <lastmod>2025-02-25T20:57:51.629Z</lastmod>
+    <lastmod>2025-02-25T21:15:06.112Z</lastmod>
   </url>
   <url>
     <loc>https://nakulpadalkar.github.io/posts/2025-01-29-quarto-github-actions/index.html</loc>
-    <lastmod>2025-02-25T20:57:51.629Z</lastmod>
+    <lastmod>2025-02-25T21:15:06.113Z</lastmod>
   </url>
   <url>
     <loc>https://nakulpadalkar.github.io/about.html</loc>
-    <lastmod>2025-02-25T20:57:51.619Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nakulpadalkar.github.io/index.html</loc>
-    <lastmod>2025-02-25T20:57:51.627Z</lastmod>
+    <lastmod>2025-02-25T21:15:06.103Z</lastmod>
   </url>
   <url>
     <loc>https://nakulpadalkar.github.io/posts/2025-01-30-quarto-project-guidelines/index.html</loc>
-    <lastmod>2025-02-25T20:57:51.629Z</lastmod>
+    <lastmod>2025-02-25T21:15:06.113Z</lastmod>
   </url>
   <url>
     <loc>https://nakulpadalkar.github.io/projects.html</loc>
-    <lastmod>2025-02-25T20:57:51.629Z</lastmod>
+    <lastmod>2025-02-25T21:15:06.113Z</lastmod>
   </url>
 </urlset>
