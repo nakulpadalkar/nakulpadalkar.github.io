@@ -202,76 +202,7 @@ pre.text, pre.sourceCode, .cell-output pre {
     }
 }
 
-.nav-footer {
-    align-items: flex-start;
-    flex-wrap: wrap;
-    border: 0 !important;
-    min-height: 3em;
-    padding: 2em 1em;
-    background-color: $footer-bg;
-    color: $footer-fg;
-    font-family: $footer-font-family;
-    font-size: 0.95em;
-    letter-spacing: 0.02em;
-  
-    a {
-      color: $rich-gold;
-      text-decoration: none;
-  
-      &:hover {
-        text-decoration: underline;
-        color: $dusty-rose;
-      }
-    }
-  
-    .faux-block {
-      display: block;
-      padding-bottom: 0.4em;
-    }
-  
-    .fingerprint {
-      font-family: $font-family-monospace;
-      font-size: 0.75em;
-      opacity: 0.7;
-    }
-  
-    .nav-footer-center {
-      text-align: center;
-      position: inherit;
-      margin-top: 0;
-  
-      @media (max-width: map-get($grid-breakpoints, md)) {
-        margin-top: 0.5em;
-        margin-bottom: 1.5em;
-      }
-    }
-  
-    .nav-footer-left,
-    .nav-footer-right,
-    .nav-footer-center {
-      text-align: center;
-      width: 100%;
-      min-height: 2em;
-      margin-bottom: 0.5em;
-    }
-  
-    @media (min-width: map-get($grid-breakpoints, md)) {
-      .nav-footer-left {
-        text-align: left;
-      }
-  
-      .nav-footer-right {
-        text-align: right;
-      }
-  
-      .nav-footer-left,
-      .nav-footer-right,
-      .nav-footer-center {
-        flex: 1 1 33%;
-      }
-    }
-  }
-  
+
 #title-block-header {
     .quarto-title-banner {
         font-family: $headings-font-family;
@@ -688,3 +619,61 @@ pre.text, pre.sourceCode, .cell-output pre {
         left: 0;
     }
 }
+
+.waves-container {
+    position: relative;
+    width: 100%;
+    margin-top: 4rem;
+    overflow: hidden;
+    line-height: 0;
+  }
+  
+  .waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    min-height: 100px;
+    max-height: 400px;
+  }
+  
+  .parallax > use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+  }
+  
+  .parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+  }
+  
+  .parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+  }
+  
+  .parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+  }
+  
+  .parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+  }
+  
+  @keyframes move-forever {
+    0% {
+      transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+      transform: translate3d(85px, 0, 0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .waves {
+      height: 40px;
+      min-height: 40px;
+    }
+  }
+  
