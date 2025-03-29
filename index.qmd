@@ -1,9 +1,12 @@
 ---
-title: "Nakul's Website"
+title: "Hello there!"
+pagetitle: "Nakul R. Padalkar"
+description-meta: "Nakul R. Padalkar is an associate professor at GBoston University's Metropolitan College."
+main-photo: /files/profiles/andrew-heiss-2022.jpg
+main-photo-square: /files/profiles/andrew-heiss-2022-square.jpg
+title-block-banner: "#CF4446"
+format:
+  html:
+    quarto-template-params:
+      banner-header-class: "home"
 ---
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-![](./images/bryan-brittos-slMcaf6sULE-unsplash.jpg){width="75%"}
