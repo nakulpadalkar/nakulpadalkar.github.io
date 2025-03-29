@@ -2,9 +2,9 @@
 title: "Hello there!"
 pagetitle: "Nakul R. Padalkar"
 description-meta: "Nakul R. Padalkar is an associate professor at GBoston University's Metropolitan College."
-main-photo: /files/profiles/andrew-heiss-2022.jpg
-main-photo-square: /files/profiles/andrew-heiss-2022-square.jpg
-title-block-banner: "#CF4446"
+main-photo: /assets/images/bryan-brittos-slMcaf6sULE-unsplash.jpg
+main-photo-square: /assets/images/bryan-brittos-slMcaf6sULE-unsplash.jpg
+# title-block-banner: "#FFB627"
 format:
   html:
     quarto-template-params:

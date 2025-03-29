@@ -1,6 +1,15 @@
 /*-- scss:defaults --*/
 
-$theme: "nrp" !default;
+$theme: "ath" !default;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+) !default;
 
 //
 // Color system
@@ -18,80 +27,83 @@ $gray-800: #373a3c !default;
 $gray-900: #212529 !default;
 $black:    #000000 !default;
 
-$blue:    #2780e3 !default;
-$indigo:  #6610f2 !default;
-$purple:  #170C3A !default;
-$pink:    #A52C60 !default;
-$red:     #CF4446 !default;
-$orange:  #EE6A24 !default;
+$blue:          #2780e3 !default;
+$indigo:        #6610f2 !default;
+$purple:        #170C3A !default;
+$pink:          #A52C60 !default;
+$plum:          #4B1D3F !default;
+$red:           #CF4446 !default;
+$orange:        #EE6A24 !default;
 $light-orange:  #FB9E07 !default;
-$yellow:  #F6D645 !default;
-$green:   #118230 !default;
-$teal:    #20c997 !default;
-$cyan:    #3093CF !default;
+$yellow:        #F6D645 !default;
+$green:         #118230 !default;
+$teal:          #20c997 !default;
+$cyan:          #3093CF !default;
+$oxford-blue:   #14213D !default;
+$dusty-rose:    #B35C79 !default;
+$rich-gold:     #FFB627 !default;
+$burgundy:      #7B294E !default;
+$ghost-white:   #F9F9F9 !default;
+$twilight:      #1E293B !default;
+$slate-gray:    #6B7280 !default;
 
-$primary:   $pink !default;
-$secondary: $gray-700 !default;
-$success:   $green !default;
-$info:      $cyan !default;
-$warning:   $orange !default;
-$danger:    $red !default;
-$light:     $gray-400 !default;
-$dark:      $black !default;
+$primary:   $plum !default;
+$secondary: $oxford-blue !default;
+$info:      $dusty-rose !default;
+$warning:   $rich-gold !default;
+$danger:    $burgundy !default;
+$light:     $ghost-white !default;
+$dark:      $twilight !default;
 
 // $min-contrast-ratio: 2.6 !default;
 
 // Fonts
-
-
-$font-family-sans-serif: "Libre Franklin" !default;
-
-$headings-font-family: "Jost" !default;
+// Fonts – Academic & Modern
+$font-family-sans-serif: "Inter", sans-serif !default;
+$headings-font-family: "EB Garamond", serif !default;
 $headings-font-weight: 600 !default;
 
-$navbar-font-family: "Jost" !default;
-$toc-font-family: "Jost" !default;
-$footer-font-family: "Jost" !default;
+$navbar-font-family: $headings-font-family !default;
+$toc-font-family: $headings-font-family !default;
+$footer-font-family: $headings-font-family !default;
 
-// $font-size-base: 1.1rem !default; // Assumes the browser default, typically `16px`
-// $font-size-sm: $font-size-base * .875 !default;
-
-
-// Body
-$body-color: $gray-900 !default;
-
-// Links
-$link-color: $orange !default;
+// Typography
+$body-color: $slate-gray !default;
+$link-color: $dusty-rose !default;
 $link-decoration: none !default;
-$link-hover-color: $red !default;
+$link-hover-color: $burgundy !default;
 $link-hover-decoration: underline !default;
 
-// Inline code
-$code-bg: $gray-200 !default;
-$code-color: $gray-900 !default;
-
-// Code copy
-$btn-code-copy-color-active: $orange !default;
+// Code Styling
+$code-bg: $twilight !default;
+$code-color: $rich-gold !default;
+$btn-code-copy-color-active: $rich-gold !default;
 
 // TOC
-$toc-color: $orange;
-$toc-font-size: 1em;
+$toc-color: $rich-gold !default;
+$toc-font-size: 1em !default;
 
 // Navbar
-$navbar-bg: $purple !default;
-$navbar-fg: $white !default;
-$navbar-hl: $light-orange !default;
+$navbar-bg: $oxford-blue !default;
+$navbar-fg: $ghost-white !default;
+$navbar-hl: $rich-gold !default;
 
 // Footer
-$footer-bg: $gray-900 !default;
-$footer-fg: $gray-300 !default;
+$footer-bg: $rich-gold !default;
+$footer-fg: $oxford-blue !default;
 
-/*-- scss:rules --*/
+// Optional Web Fonts
+$web-font-path: "https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Inter:wght@400;600&display=swap" !default;
+$font-family-monospace: "JetBrains Mono", "Fira Code", "Courier New", monospace !default;
 
-$web-font-path: "https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" !default;
+code, pre, .sourceCode {
+    font-family: $font-family-monospace;
+  }
+  
+
 
 @if $web-font-path {
-    @import url($web-font-path);
+  @import url($web-font-path);
 }
 
 body {
