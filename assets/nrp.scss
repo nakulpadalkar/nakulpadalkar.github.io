@@ -203,67 +203,75 @@ pre.text, pre.sourceCode, .cell-output pre {
 }
 
 .nav-footer {
-    align-items: flex-start;  // Align all flex items to the top
+    align-items: flex-start;
     flex-wrap: wrap;
     border: 0 !important;
     min-height: 3em;
+    padding: 2em 1em;
+    background-color: $footer-bg;
+    color: $footer-fg;
     font-family: $footer-font-family;
-
+    font-size: 0.95em;
+    letter-spacing: 0.02em;
+  
     a {
-        color: $light-orange;
+      color: $rich-gold;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+        color: $dusty-rose;
+      }
     }
-
+  
     .faux-block {
-        display: block;
-        padding-bottom: 0.4em;
+      display: block;
+      padding-bottom: 0.4em;
     }
-
+  
     .fingerprint {
-        font-family: $font-family-monospace;
-        font-size: 0.8em;
+      font-family: $font-family-monospace;
+      font-size: 0.75em;
+      opacity: 0.7;
     }
-
-    // In the default Quarto template, .nav-footer-center has position: absolute 
-    // turned on, which makes the div not be a flex item
-    // This changes that so that it *is* a flex item
+  
     .nav-footer-center {
-        text-align: center;
-        position: inherit;
-        margin-top: 0;
-
-        @media (max-width: map-get($grid-breakpoints, md)) {
-            margin-top: 0.5em;
-            margin-bottom: 1.5em;
-        }
+      text-align: center;
+      position: inherit;
+      margin-top: 0;
+  
+      @media (max-width: map-get($grid-breakpoints, md)) {
+        margin-top: 0.5em;
+        margin-bottom: 1.5em;
+      }
     }
-
-    // When the screen is medium or smaller, make each footer chunk be 100% width 
-    // and centered; otherwise make them be 33% width and left/right/centerd
+  
     .nav-footer-left,
     .nav-footer-right,
     .nav-footer-center {
-        text-align: center;
-        width: 100%;
-        min-height: 2em;
+      text-align: center;
+      width: 100%;
+      min-height: 2em;
+      margin-bottom: 0.5em;
     }
-
+  
     @media (min-width: map-get($grid-breakpoints, md)) {
-        .nav-footer-left {
-            text-align: left;
-        }
-
-        .nav-footer-right {
-            text-align: right;
-        }
-
-        .nav-footer-left,
-        .nav-footer-right,
-        .nav-footer-center {
-            flex: 1 1 33%;
-        }
+      .nav-footer-left {
+        text-align: left;
+      }
+  
+      .nav-footer-right {
+        text-align: right;
+      }
+  
+      .nav-footer-left,
+      .nav-footer-right,
+      .nav-footer-center {
+        flex: 1 1 33%;
+      }
     }
-}
-
+  }
+  
 #title-block-header {
     .quarto-title-banner {
         font-family: $headings-font-family;
