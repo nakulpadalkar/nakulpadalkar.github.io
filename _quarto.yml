@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  google-analytics: "G-2KBQHLJNKQ"
   title: "Nakul's Website"
   navbar:
     left:
