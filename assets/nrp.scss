@@ -99,7 +99,6 @@ $font-family-monospace: "JetBrains Mono", "Fira Code", "Courier New", monospace 
 code, pre, .sourceCode {
     font-family: $font-family-monospace;
   }
-  
 
 
 @if $web-font-path {
@@ -108,6 +107,7 @@ code, pre, .sourceCode {
 
 body {
     -webkit-font-smoothing: antialiased;
+    margin-bottom: 0;
 }
 
 .rtl {
@@ -676,4 +676,35 @@ pre.text, pre.sourceCode, .cell-output pre {
       min-height: 40px;
     }
   }
+
+  /* Full width for footer SVG and container */
+.waves-container, .page-footer {
+    width: 100%;
+  }
   
+  .page-footer {
+    background-color: #7289DA !important;
+    width: 100%;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    border-top: none;
+    margin-top: 0;
+  }
+  
+  /* Button fix for visibility */
+  .page-footer .btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 0.5rem 1.25rem;
+    border-radius: 999px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  
+    &:hover {
+      background-color: white;
+      color: #7289DA;
+    }
+  }
