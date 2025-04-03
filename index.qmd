@@ -10,3 +10,5 @@ format:
     quarto-template-params:
       banner-header-class: "home"
 ---
+
+Here is my front page, the main page of my website. I am Nakul R. Padalkar, an associate professor at Boston University's Metropolitan College. I am a researcher in the field of computer science and have a keen interest in artificial intelligence, machine learning, and data science.
