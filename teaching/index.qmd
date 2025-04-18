@@ -1,0 +1,8 @@
+---
+title: Nakul's Teaching
+---
+
+# Sprint 2025 Teaching
+
+1. AD 688 - Introduction to Cloud and Big Data Analytics.
+2. AD 571 - Introduction to Business Analytics
