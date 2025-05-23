@@ -1,23 +1,16 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nakul’s Website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hello there!",
-    "section": "",
-    "text": "Here is my front page, the main page of my website. I am Nakul R. Padalkar, an associate professor at Boston University’s Metropolitan College. I am a researcher in the field of Information Systems and have a keen interest in artificial intelligence, machine learning, and data science."
-  },
-  {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Nakul’s Teaching",
-    "section": "",
-    "text": "Sprint 2025 Teaching\n\nAD 688 - Introduction to Cloud and Big Data Analytics.\nAD 571 - Introduction to Business Analytics"
   }
 ]
