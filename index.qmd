@@ -9,3 +9,11 @@ I’ve been fortunate to work on academically rigorous and practically impactful
 My work has been a combination of my professional and personal interests, which often overlap in surprising ways. For example, I’m a photography enthusiast and love incorporating my photos into my computer vision classes. Capturing a moment in a single frame or exploring the nuances of a new landscape offers me fresh perspectives that I can bring back to the classroom.
 
 Beyond teaching and research, I’m a lifelong learner and traveler. Exploring new places, cultures, and cuisines broadens my outlook and brings depth to my work. Travel and technology share something in common: they allow us to cross boundaries, connect with diverse perspectives, and learn continuously.
+
+
+```{python}
+x =1
+y=2
+z=x+y
+print("The sum of", x, "and", y, "is", z)
+```
