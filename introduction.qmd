@@ -17,3 +17,5 @@ df = spark.read.option("header", "true").option("inferSchema", "true").option("m
 df.show(5, truncate=False)
 ```
 
+# Metro Salary Comparison
+![](./output/figures/metro_salary_comparison.png){width="80%" fig-align="center"}
