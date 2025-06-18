@@ -8,7 +8,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-
+      - href: introduction.ipynb
+        text: Data Analysis
 format:
   html:
     theme:

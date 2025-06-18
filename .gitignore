@@ -179,3 +179,4 @@ _site/
 myenv/
 
 *.tar.gz
+data/lightcast_job_postings.csv
