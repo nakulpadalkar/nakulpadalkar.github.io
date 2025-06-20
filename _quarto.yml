@@ -7,9 +7,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - href: introduction.qmd
-        text: Data Analysis
+
 format:
   html:
     theme:
