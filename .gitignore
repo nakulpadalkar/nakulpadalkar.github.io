@@ -180,3 +180,4 @@ myenv/
 
 *.tar.gz
 data/lightcast_job_postings.csv
+data/penguins.csv

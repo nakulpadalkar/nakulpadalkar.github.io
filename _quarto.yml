@@ -2,17 +2,29 @@ project:
   type: website
 
 website:
-  title: "Nakul's Portfolio"
+  title: "Penguins Data - Example Project"
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: "Home"
+      - href: introduction.qmd
+        text: "Introduction"
+      - href: data_cleaning.qmd
+        text: "Data Cleaning & Exploration"
+      - href: eda.qmd
+        text: "Exploratory Data Analysis"
+      - href: skill_gap_analysis.qmd
+        text: "Skill Gap Analysis"
+      - href: ml_methods.qmd
+        text: "ML Methods"
+      - href: nlp_methods.qmd
+        text: "NLP Methods"
 
 format:
   html:
     theme:
       - cosmo
-      - brand
+    df-print: paged
     css: styles.css
     toc: true
 
