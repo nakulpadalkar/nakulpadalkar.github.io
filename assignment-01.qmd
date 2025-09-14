@@ -1,11 +1,14 @@
 ---
 title: "Assignment 01"
 subtitle: "System Information Proof"
+date: today
+date-format: long
 author: "Nakul Padalkar"
 format: 
+  html:
+    toc: true
   pdf: default
   docx: default
-gi
 ---
 
 ```{python}
