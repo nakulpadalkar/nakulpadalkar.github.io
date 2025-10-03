@@ -1,17 +1,11 @@
 ---
-jupyter: python3
+title: "Lobsterland Holiday Sales Analysis"
 ---
 
-**Exploratory Data Analysis: Exploration & Manipulation**
 
 ```{python}
-
 import pandas as pd
 import seaborn as sns
-```
-
-```{python}
-
 
 holiday_sales = pd.read_csv("lobsterland_holiday_sales_data.csv")
 holiday_sales.head()
