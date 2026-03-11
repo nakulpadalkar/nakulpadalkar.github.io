@@ -1,0 +1,48 @@
+---
+title: "About Me"
+---
+
+## Bio
+
+Hi! I am **Nakul Padalkar**, a PhD student and researcher with a keen interest in machine learning, data science, and computational methods. I am driven by curiosity and a desire to make research accessible and impactful.
+
+I received my undergraduate degree in Computer Science and subsequently pursued graduate studies focusing on applied machine learning. My academic journey has taken me across several exciting research problems and collaborative projects.
+
+---
+
+## Education
+
+| Degree | Institution | Year |
+|--------|-------------|------|
+| PhD, Computer Science *(in progress)* | University Name | 2022 – Present |
+| M.S., Computer Science | University Name | 2020 – 2022 |
+| B.Tech., Computer Engineering | University Name | 2016 – 2020 |
+
+---
+
+## Skills & Tools
+
+**Programming Languages:** Python, R, Julia, Bash
+
+**Frameworks & Libraries:** PyTorch, TensorFlow, scikit-learn, pandas, NumPy, Matplotlib
+
+**Tools:** Quarto, Jupyter, Git, Docker, Linux, LaTeX
+
+---
+
+## Interests
+
+Outside of research, I enjoy:
+
+- 📚 Reading science fiction and popular science books
+- 🎸 Playing the guitar
+- 🏃 Long-distance running
+- 🌍 Travelling and exploring new cultures
+
+---
+
+## Contact
+
+- **Email:** nakul [at] example [dot] com
+- **GitHub:** [github.com/nakulpadalkar](https://github.com/nakulpadalkar)
+- **LinkedIn:** [linkedin.com/in/nakulpadalkar](https://linkedin.com/in/nakulpadalkar)
