@@ -1,0 +1,55 @@
+---
+title: "Nakul Padalkar"
+page-layout: full
+---
+
+::: {.hero-section}
+# Welcome to My Website
+
+**PhD Student · Researcher · Educator**
+
+I am a researcher passionate about pushing the frontiers of knowledge and sharing that journey through teaching and collaboration. My work sits at the intersection of machine learning, data science, and applied research.
+
+[Learn About Me](about.qmd){.btn .btn-primary .me-2}
+[View My Research](research.qmd){.btn .btn-outline-secondary}
+:::
+
+::: {.section-divider}
+:::
+
+## Latest News
+
+- **March 2024** – New paper submitted to a top-tier conference on deep learning for scientific data.
+- **January 2024** – Started teaching *Introduction to Machine Learning* (Spring 2024 semester).
+- **October 2023** – Presented a poster at the annual departmental research symposium.
+
+::: {.section-divider}
+:::
+
+## Research Highlights
+
+::: {.columns}
+
+::: {.column width="33%"}
+### 🧠 Machine Learning
+Developing novel algorithms for sample-efficient learning and robust generalisation in real-world settings.
+:::
+
+::: {.column width="33%"}
+### 📊 Data Science
+Building end-to-end pipelines that transform raw data into actionable insights using Python and reproducible workflows.
+:::
+
+::: {.column width="33%"}
+### 🔬 Applied Research
+Collaborating with domain experts to apply state-of-the-art techniques in science, engineering, and social impact applications.
+:::
+
+:::
+
+::: {.section-divider}
+:::
+
+## Contact
+
+Feel free to reach out via [GitHub](https://github.com/nakulpadalkar) or email at **nakul [at] example [dot] com**.
