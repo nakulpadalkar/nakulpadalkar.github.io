@@ -6,6 +6,7 @@ page-layout: full
 ::: {.hero-section}
 # Welcome to My Website
 
+
 **PhD Student · Researcher · Educator**
 
 I am a researcher passionate about pushing the frontiers of knowledge and sharing that journey through teaching and collaboration. My work sits at the intersection of machine learning, data science, and applied research.

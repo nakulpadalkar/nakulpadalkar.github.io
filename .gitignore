@@ -207,7 +207,6 @@ marimo/_lsp/
 __marimo__/
 
 # Quarto build output
-_site/
 .quarto/
 /.quarto/
 
