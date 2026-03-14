@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Hi! I am Nakul Padalkar, a PhD student and researcher with a keen interest in machine learning, data science, and computational methods. I am driven by curiosity and a desire to make research accessible and impactful.\nI received my undergraduate degree in Computer Science and subsequently pursued graduate studies focusing on applied machine learning. My academic journey has taken me across several exciting research problems and collaborative projects."
+  },
+  {
+    "objectID": "about.html#bio",
+    "href": "about.html#bio",
+    "title": "About Me",
+    "section": "",
+    "text": "Hi! I am Nakul Padalkar, a PhD student and researcher with a keen interest in machine learning, data science, and computational methods. I am driven by curiosity and a desire to make research accessible and impactful.\nI received my undergraduate degree in Computer Science and subsequently pursued graduate studies focusing on applied machine learning. My academic journey has taken me across several exciting research problems and collaborative projects."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\n\n\n\n\n\n\n\n\nDegree\nInstitution\nYear\n\n\n\n\nPhD, Computer Science (in progress)\nUniversity Name\n2022 – Present\n\n\nM.S., Computer Science\nUniversity Name\n2020 – 2022\n\n\nB.Tech., Computer Engineering\nUniversity Name\n2016 – 2020"
+  },
+  {
+    "objectID": "about.html#skills-tools",
+    "href": "about.html#skills-tools",
+    "title": "About Me",
+    "section": "Skills & Tools",
+    "text": "Skills & Tools\nProgramming Languages: Python, R, Julia, Bash\nFrameworks & Libraries: PyTorch, TensorFlow, scikit-learn, pandas, NumPy, Matplotlib\nTools: Quarto, Jupyter, Git, Docker, Linux, LaTeX"
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "About Me",
+    "section": "Interests",
+    "text": "Interests\nOutside of research, I enjoy:\n\n📚 Reading science fiction and popular science books\n🎸 Playing the guitar\n🏃 Long-distance running\n🌍 Travelling and exploring new cultures"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About Me",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: nakul [at] example [dot] com\nGitHub: github.com/nakulpadalkar\nLinkedIn: linkedin.com/in/nakulpadalkar"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I believe that good teaching is about making complex ideas accessible and inspiring curiosity. My approach emphasises:\n\nActive learning – encouraging students to engage with problems hands-on rather than passively absorbing lectures.\nClarity – breaking down difficult concepts into intuitive building blocks.\nInclusivity – creating an environment where every student feels welcome and supported.\nPractical skills – bridging theory and practice so that students can apply what they learn."
+  },
+  {
+    "objectID": "teaching.html#teaching-philosophy",
+    "href": "teaching.html#teaching-philosophy",
+    "title": "Teaching",
+    "section": "",
+    "text": "I believe that good teaching is about making complex ideas accessible and inspiring curiosity. My approach emphasises:\n\nActive learning – encouraging students to engage with problems hands-on rather than passively absorbing lectures.\nClarity – breaking down difficult concepts into intuitive building blocks.\nInclusivity – creating an environment where every student feels welcome and supported.\nPractical skills – bridging theory and practice so that students can apply what they learn."
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching",
+    "section": "Courses",
+    "text": "Courses\n\nAs Instructor\n\n\n\n\n\n\n\n\n\nCourse\nLevel\nSemester\nInstitution\n\n\n\n\nIntroduction to Machine Learning\nUndergraduate\nSpring 2024\nUniversity Name\n\n\nData Science Bootcamp\nGraduate\nSummer 2023\nUniversity Name\n\n\n\n\n\nAs Teaching Assistant\n\n\n\nCourse\nInstructor\nSemester\nInstitution\n\n\n\n\nAdvanced Deep Learning\nProf. X\nFall 2023\nUniversity Name\n\n\nProbability & Statistics\nProf. Y\nSpring 2023\nUniversity Name\n\n\nAlgorithms & Data Structures\nProf. Z\nFall 2022\nUniversity Name"
+  },
+  {
+    "objectID": "teaching.html#tutorials-workshops",
+    "href": "teaching.html#tutorials-workshops",
+    "title": "Teaching",
+    "section": "Tutorials & Workshops",
+    "text": "Tutorials & Workshops\n\nIntroduction to Quarto for Reproducible Research\nWorkshop, March 2024\nA hands-on workshop introducing Quarto as a tool for building reproducible research documents, interactive notebooks, and websites — all from a single source.\n[Slides]   [Materials]\n\n\nPython for Data Science – Crash Course\nTutorial, November 2023\nA two-hour crash course covering NumPy, pandas, Matplotlib, and scikit-learn, targeted at researchers transitioning to Python from MATLAB or R.\n[Notebook]   [Recording]"
+  },
+  {
+    "objectID": "teaching.html#student-supervision",
+    "href": "teaching.html#student-supervision",
+    "title": "Teaching",
+    "section": "Student Supervision",
+    "text": "Student Supervision\nI have mentored undergraduate and graduate students on research and course projects. If you are a student looking for a project or mentorship, please reach out via the About page.\n\n\n\n\n\n\n\n\n\nStudent\nLevel\nTopic\nYear\n\n\n\n\nStudent A\nUndergraduate\nAnomaly detection with autoencoders\n2024\n\n\nStudent B\nMaster’s\nTransfer learning for medical imaging\n2023"
+  },
+  {
+    "objectID": "teaching.html#resources",
+    "href": "teaching.html#resources",
+    "title": "Teaching",
+    "section": "Resources",
+    "text": "Resources\nBelow are some resources I frequently recommend to students:\n\n📖 Pattern Recognition and Machine Learning – Bishop (2006)\n📖 Deep Learning – Goodfellow, Bengio & Courville (2016)\n🐍 Python Data Science Handbook – VanderPlas (freely available online)\n📊 Quarto Documentation – Official Quarto guide"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nakul Padalkar",
+    "section": "",
+    "text": "PhD Student · Researcher · Educator\nI am a researcher passionate about pushing the frontiers of knowledge and sharing that journey through teaching and collaboration. My work sits at the intersection of machine learning, data science, and applied research.\nLearn About Me View My Research"
+  },
+  {
+    "objectID": "index.html#latest-news",
+    "href": "index.html#latest-news",
+    "title": "Nakul Padalkar",
+    "section": "Latest News",
+    "text": "Latest News\n\nMarch 2024 – New paper submitted to a top-tier conference on deep learning for scientific data.\nJanuary 2024 – Started teaching Introduction to Machine Learning (Spring 2024 semester).\nOctober 2023 – Presented a poster at the annual departmental research symposium."
+  },
+  {
+    "objectID": "index.html#research-highlights",
+    "href": "index.html#research-highlights",
+    "title": "Nakul Padalkar",
+    "section": "Research Highlights",
+    "text": "Research Highlights\n\n\n\n🧠 Machine Learning\nDeveloping novel algorithms for sample-efficient learning and robust generalisation in real-world settings.\n\n\n\n📊 Data Science\nBuilding end-to-end pipelines that transform raw data into actionable insights using Python and reproducible workflows.\n\n\n\n🔬 Applied Research\nCollaborating with domain experts to apply state-of-the-art techniques in science, engineering, and social impact applications."
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Nakul Padalkar",
+    "section": "Contact",
+    "text": "Contact\nFeel free to reach out via GitHub or email at nakul [at] example [dot] com."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research focuses on developing robust and efficient machine learning methods with real-world applicability. Specific areas of interest include:\n\nRepresentation Learning – learning compact, transferable feature representations from limited labelled data.\nUncertainty Quantification – building models that know what they do not know.\nScientific Machine Learning – applying ML to accelerate discovery in physics, biology, and materials science.\nExplainability & Fairness – ensuring models are interpretable and unbiased."
+  },
+  {
+    "objectID": "research.html#research-interests",
+    "href": "research.html#research-interests",
+    "title": "Research",
+    "section": "",
+    "text": "My research focuses on developing robust and efficient machine learning methods with real-world applicability. Specific areas of interest include:\n\nRepresentation Learning – learning compact, transferable feature representations from limited labelled data.\nUncertainty Quantification – building models that know what they do not know.\nScientific Machine Learning – applying ML to accelerate discovery in physics, biology, and materials science.\nExplainability & Fairness – ensuring models are interpretable and unbiased."
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\n2024\n\n[Title of Paper 1]\nNakul Padalkar, Co-Author A, Co-Author B\nConference/Journal Name, 2024\n[PDF]   [Code]   [Slides]\n\nBrief abstract or one-sentence description of the contribution goes here.\n\n\n\n[Title of Paper 2]\nNakul Padalkar, Co-Author C\nWorkshop on Topic X at Conference Y, 2024\n[PDF]   [Poster]\n\nBrief abstract or one-sentence description of the contribution goes here.\n\n\n\n\n2023\n\n[Title of Paper 3]\nCo-Author D, Nakul Padalkar, Co-Author E\nJournal Name, 2023\n[PDF]   [Code]\n\nBrief abstract or one-sentence description of the contribution goes here."
+  },
+  {
+    "objectID": "research.html#preprints",
+    "href": "research.html#preprints",
+    "title": "Research",
+    "section": "Preprints",
+    "text": "Preprints\n\n[Title of Preprint]\nNakul Padalkar, Co-Author F\narXiv, 2024\n[arXiv]\n\nBrief description of the preprint."
+  },
+  {
+    "objectID": "research.html#projects",
+    "href": "research.html#projects",
+    "title": "Research",
+    "section": "Projects",
+    "text": "Projects\n\nActive Projects\n\n\n\nProject\nDescription\nLinks\n\n\n\n\nProject Alpha\nEfficient neural architecture search for scientific domains.\nGitHub\n\n\nProject Beta\nBenchmark dataset and evaluation suite for uncertainty estimation.\nGitHub\n\n\n\n\n\nPast Projects\n\n\n\nProject\nDescription\nLinks\n\n\n\n\nProject Gamma\nReproducible ML pipelines using Quarto and DVC.\nGitHub"
+  },
+  {
+    "objectID": "research.html#collaborators",
+    "href": "research.html#collaborators",
+    "title": "Research",
+    "section": "Collaborators",
+    "text": "Collaborators\nI am fortunate to collaborate with researchers across several institutions. If you are interested in collaborating, please feel free to get in touch."
+  }
+]
