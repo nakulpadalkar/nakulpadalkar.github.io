@@ -4,7 +4,7 @@
     "href": "npadalka_system_info.html",
     "title": "Assignment 01",
     "section": "",
-    "text": "import platform\nimport psutil\n\nprint(\"Operating System:\", platform.system(), platform.release())\nprint(\"Python Version:\", platform.python_version())\nprint(\"Machine:\", platform.machine())\nprint(\"Processor:\", platform.processor())\n\nmem = psutil.virtual_memory()\nprint(\"Total Memory (MB):\", round(mem.total / (1024**2), 2))\nprint(\"Available Memory (MB):\", round(mem.available / (1024**2), 2))\n\nOperating System: Linux 6.14.0-1017-azure\nPython Version: 3.12.12\nMachine: x86_64\nProcessor: x86_64\nTotal Memory (MB): 15990.48\nAvailable Memory (MB): 14497.5"
+    "text": "import platform\nimport psutil\n\nprint(\"Operating System:\", platform.system(), platform.release())\nprint(\"Python Version:\", platform.python_version())\nprint(\"Machine:\", platform.machine())\nprint(\"Processor:\", platform.processor())\n\nmem = psutil.virtual_memory()\nprint(\"Total Memory (MB):\", round(mem.total / (1024**2), 2))\nprint(\"Available Memory (MB):\", round(mem.available / (1024**2), 2))\n\nOperating System: Linux 6.14.0-1017-azure\nPython Version: 3.12.12\nMachine: x86_64\nProcessor: x86_64\nTotal Memory (MB): 15994.61\nAvailable Memory (MB): 14578.62"
   },
   {
     "objectID": "research.html",
