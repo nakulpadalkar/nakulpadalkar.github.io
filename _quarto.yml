@@ -15,8 +15,6 @@ website:
         text: Research
       - href: teaching.qmd
         text: Teaching
-      - href: npadalka_system_info.qmd
-        text: Assignment 01 - System Information
     right:
       - icon: github
         href: https://github.com/nakulpadalkar

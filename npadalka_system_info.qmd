@@ -7,7 +7,6 @@ date-modified: last-modified
 date-format: long
 format: 
   html: default
-  pdf: default
   docx: default
 ---
 
